@@ -1,17 +1,26 @@
+@abstract
 extends Node
-class_name State
-## Base Class for all states
 
+## Base Class for all states.
+class_name State
+
+## Signal emitted to transition to another state.
+@warning_ignore("unused_signal")
 signal finished(next_state_path: String, data: Dictionary)
 
-func enter(_previous_state_path: String, _data := {}) -> void:
-	pass
 
-func exit() -> void:
-	pass
+## Called to enter a state.
+@abstract
+func enter(previous_state_path: String, data := { }) -> void
 
-func physics_process(_delta: float) -> void:
-	pass
 
-func handle_input(_event: InputEvent) -> void:
-	pass
+@abstract
+func exit() -> void
+
+
+@abstract
+func physics_process(_delta: float) -> void
+
+
+@abstract
+func handle_input(_event: InputEvent) -> void
