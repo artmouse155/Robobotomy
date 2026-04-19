@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://xskqf03ju65p" path="res://Scenes/Environment/ExtendableWall.tscn" id="2_mhkff"]
 [ext_resource type="PackedScene" uid="uid://dgbf1jp5dsvcl" path="res://Scenes/Environment/button_door.tscn" id="2_xlcc5"]
 [ext_resource type="PackedScene" uid="uid://bns61k02jrmoo" path="res://Scripts/Nameless/character.tscn" id="5_xlcc5"]
-[ext_resource type="ArrayMesh" uid="uid://dodoyqd473sd0" path="res://Scenes/Vertical Slice/3d assetts/kitbash/pipe1_long.res" id="6_ypd0c"]
+[ext_resource type="ArrayMesh" uid="uid://dodoyqd473sd0" path="res://Assets/Robobotomy Art/3D/Objects/pipe1_long.res" id="6_ypd0c"]
 [ext_resource type="ArrayMesh" uid="uid://d1rjejthugc4a" path="res://Assets/Robobotomy Art/3D/Character/Leg Left.res" id="7_ll8jm"]
 [ext_resource type="PackedScene" uid="uid://614eegxcbalt" path="res://Scenes/Environment/Teleportal.tscn" id="8_ll8jm"]
 
